@@ -1,7 +1,7 @@
 /* Header.modules.css */
 
 .Header {
-  position: absolute;
+  position:fixed;
   width: 100%;
   height: 50px;
   left: 0px;

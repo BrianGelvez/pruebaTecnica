@@ -1,0 +1,19 @@
+.logos-container-1 {
+    display: flex;
+    justify-content: space-between; /* Coloca logo1 a la izquierda y logo2 a la derecha */
+    align-items: center; /* Alinea los logos verticalmente al centro */
+    margin: 10px; /* Agrega margen para separación exterior */
+  }
+  
+  .logo1-1 img {
+    width: 160px; /* Establece el ancho del logo1 según tus preferencias */
+    height: auto; /* Esto mantendrá la proporción de aspecto de la imagen */
+    margin-right: 10px; /* Añade margen derecho para separación entre logo1 y logo2 */
+  }
+  
+  .logo2-2 img {
+    width: 160px; /* Establece el ancho del logo2 según tus preferencias */
+    height: auto; /* Esto mantendrá la proporción de aspecto de la imagen */
+    margin-left: 10px; /* Añade margen izquierdo para separación entre logo1 y logo2 */
+  }
+  

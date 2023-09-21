@@ -1,0 +1,68 @@
+/* Header.modules.css */
+
+.Header {
+  position: absolute;
+  width: 100%;
+  height: 50px;
+  left: 0px;
+  top: 0px;
+  background: #252F3D;
+}
+
+.Text1 {
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  color: aliceblue;
+  gap: 8%;
+  position: relative;
+}
+
+.text-with-image {
+  display: flex;
+  align-items: center;
+  margin-top: 5px;
+  font-size: 11px;
+}
+
+.verificationn {
+  margin-right: 7px;
+}
+
+.navigation-arrows {
+  display: block;
+}
+
+@media (min-width: 1000px) {
+  .navigation-arrows {
+    display: none;
+  }
+}
+
+.arrow {
+  cursor: pointer;
+  font-size: 20px;
+  margin: 0 10px;
+}
+
+.left-arrow {
+  display: none;
+}
+
+.right-arrow {
+  display: none;
+}
+
+.hidden {
+  display: none;
+}
+
+@media (max-width: 1000px) {
+  .left-arrow {
+    display: inline;
+  }
+
+  .right-arrow {
+    display: inline;
+  }
+}

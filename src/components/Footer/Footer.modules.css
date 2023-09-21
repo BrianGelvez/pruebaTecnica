@@ -1,0 +1,46 @@
+.container-qwe {
+    background-color: #252F3D;
+    color: white;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 80px;
+    padding: 20px;
+}
+
+.parrafos-container-qwe {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    gap: 400px;
+}
+
+/* Estilo para los párrafos */
+.parrafo1-qwe {
+    margin: 0;
+    text-align: center; 
+}
+
+@media (max-width: 1228px) {
+    .parrafos-container-qwe {
+        gap: 200px;
+    }
+
+    .parrafo1-qwe {
+        margin: 0;
+        text-align: center; 
+    }
+}
+
+@media (max-width: 928px) {
+    .parrafos-container-qwe {
+        gap: 50px;
+    }
+
+    .parrafo1-qwe {
+        margin: 0;
+        text-align: center; 
+    }
+}

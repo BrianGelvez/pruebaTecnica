@@ -266,8 +266,7 @@
     
     #root {
         display: grid;
-        columns: unset;
-        padding: 10%;
-        
+        justify-content: center;
+        align-items: center; 
     }
 }

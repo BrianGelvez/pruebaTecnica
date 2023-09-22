@@ -213,7 +213,9 @@
     }
 
     .estrellas {
-        padding-right: 26%;
+        display: flex;
+        justify-content: flex-start;
+        padding-left: 1.8%;
     }
 
     .puntoAzul-fgh {
@@ -221,7 +223,9 @@
     }
 
     .left-fgh {
-        margin-left: -33px;
+        display: flex;
+        justify-content: flex-start;
+        padding-left: 1%;
     }
 
     .wrapWords2-fgh {
@@ -251,7 +255,8 @@
     }
 
     .titleImage-fgh {
-        padding-right: 190px;
+        display: flex;
+        padding-left: 2.2%;
     }
 
     .texto-fgh {

@@ -8,7 +8,7 @@ import { TextAndStep } from './components/TextAndStep/TextAndStep';
 function App() {
 
   return (
-    <div>
+    <div className='divContenedor-fgh'>
       <Header />
       <Logos />
       <TextAndStep />

@@ -266,6 +266,10 @@
 
     .divContenedor-fgh {
         padding: 5%;
+        display: table-column-group;
+        justify-content: center;
+        align-items: center;
+        margin-left: 35px;
     }
     
     #root {

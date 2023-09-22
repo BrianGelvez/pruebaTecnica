@@ -69,7 +69,7 @@ export const Product = () => {
         <div className='Divoffer-fgh'>
           <img src={offer} className='offer-fgh' />
           <p>
-            Save <span className="highlighted-text-fgh">53%</span>  and get <span className="highlighted-text">6 extra Clarifion</span> for only <span className="highlighted-text">$14 Each</span>.
+            Save <span className="highlighted-text-fgh">53%</span>  and get <span className="highlighted-text-fgh">6 extra Clarifion</span> for only <span className="highlighted-text-fgh">$14 Each</span>.
           </p>
         </div>
         <a href="https://www.linkedin.com/in/briangelvez97/">

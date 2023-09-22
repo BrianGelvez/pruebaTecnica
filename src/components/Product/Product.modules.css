@@ -245,13 +245,13 @@
 
     .box-fgh {
         display: flex;
-        flex-direction: column; /* Apila los elementos verticalmente */
-        justify-content: center; /* Centra verticalmente en el viewport */
-        align-items: center; /* Centra horizontalmente en el viewport */
-        padding: 10px; /* Agrega espaciado interior */
+        flex-direction: column; 
+        justify-content: center; 
+        align-items: center;
+        padding: 10px; 
         margin-bottom: 150px;
-        width: 100%; /* Ocupa todo el ancho disponible */
-        margin-left: 0; /* Elimina el margen izquierdo */
+        width: 100%; 
+        margin-left: 0;
     }
 
     .titleImage-fgh {
@@ -263,11 +263,15 @@
         padding-top: 5%;
         font-size: 16px;
     }
+
+    .divContenedor-fgh {
+        padding: 5%;
+    }
     
     #root {
         display: grid;
         justify-content: center;
         align-items: center; 
-        padding: 15%;
+        padding: 5%;
     }
 }

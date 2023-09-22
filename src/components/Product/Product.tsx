@@ -23,7 +23,8 @@ export const Product = () => {
   }
 
   return (
-    <div className="box-fgh">
+    <div className='divContenedor-fgh'>
+      <div className="box-fgh">
       <div className='box1-fgh'>
         <p className='wrapWords2-fgh'>
         {wrapWords("ONE TIME ONLY Special Price For 6 Extra Clarifion For Only $14 Each ($84.00 Total!)")}
@@ -82,6 +83,7 @@ export const Product = () => {
           <p className='shieldP-fgh'>If you are not completely thrilled with your Clarifion - We have a 30 day satisfaction guarantee. Please refer to our return policy at the bottom of the page for more details. Happy Shopping!</p>
         </div>
       </div>
+    </div>
     </div>
   );
 };

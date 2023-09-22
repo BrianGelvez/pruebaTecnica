@@ -26,6 +26,10 @@
 @media (max-width: 1228px) {
     .parrafos-container-qwe {
         gap: 200px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100%;
     }
 
     .parrafo1-qwe {
@@ -36,7 +40,11 @@
 
 @media (max-width: 928px) {
     .parrafos-container-qwe {
-        gap: 50px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100%;
+        
     }
 
     .parrafo1-qwe {
